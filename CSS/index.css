@@ -64,3 +64,33 @@ body{
 .--main-color{
     color: var(--theme-color);
 }
+
+.header__mobile{
+    padding: 28px 25px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__mobile .home{
+    display: flex;
+    align-items: center;
+}
+
+.header__mobile .home i{
+    margin-right: 12px;
+    font-size: 32px;
+}
+
+.header__mobile i{
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 1160px){
+    .header__mobile{
+        display: flex;
+    }
+    .header{
+        display: none;
+    }
+}

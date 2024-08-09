@@ -108,4 +108,7 @@ body{
     .background__content h1{
         font-size: 32px;
     }
+    .background__content{
+        flex-grow: 1;
+    }
 }
